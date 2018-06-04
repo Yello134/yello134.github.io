@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-family: 'Gamja Flower', cursive;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+p {
+  font-family: 'Titan One', cursive;
+  font-size: 20px;
+}
+#footer {
+  background-color: lightpink;
+  height: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  color: white;
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  width: 97%;
+  background-color: skyblue;
+  padding: 20px;
+  overflow: auto;
+}
+
+#nav h1 {
+  float: left;
+}
+
+#nav ul {
+  float: right;
+  list-style: none;
+}
+
+#nav ul li {
+  float: right;
+  margin: 0 10px;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+#content {
+  height: 270px;
+  background-image: url("https://qph.fs.quoracdn.net/main-qimg-b4c5b3ea3b783f81db4b385b48d2dd1d");
+}
+
+#container {
+  border: 10px solid pink;
+  padding: 10px;
+  margin: 15px;
+  overflow: auto;
+}
+
+#YAH {
+  width: 40%;
+  float: left;
+}
+
+img {
+  width: 12%;
+  float: right;  
+}
+
+#energetic {
+  width: 39.4%;
+  padding-right: 10px;
+}
